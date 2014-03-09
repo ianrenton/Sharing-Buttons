@@ -1,4 +1,4 @@
-/* line 17, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,76 +20,66 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
 
-/* line 17, ../sass/buttons.scss */
-.sharing-buttons {
-  width: 400px;
-  height: 40px;
-  margin: 20px auto;
-}
-/* line 21, ../sass/buttons.scss */
+/* line 19, ../sass/buttons.scss */
 .sharing-buttons a {
   display: table;
-  height: 100%;
-  width: 24%;
-  margin: 0 0.5px;
   float: left;
   text-decoration: none;
   transition: background 1s;
 }
-/* line 30, ../sass/buttons.scss */
+/* line 25, ../sass/buttons.scss */
 .sharing-buttons a:hover {
   text-decoration: none;
 }
-/* line 34, ../sass/buttons.scss */
+/* line 29, ../sass/buttons.scss */
 .sharing-buttons a:nth-child(1) {
   /*Twitter Button*/
-  border-radius: 10px 0 0 10px;
   background: #23abf2;
 }
-/* line 37, ../sass/buttons.scss */
+/* line 32, ../sass/buttons.scss */
 .sharing-buttons a:nth-child(1):hover {
   background-color: #23abf2;
 }
@@ -97,12 +87,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 .sharing-buttons a:nth-child(1):hover:hover {
   background-color: #0b80bd;
 }
-/* line 41, ../sass/buttons.scss */
+/* line 36, ../sass/buttons.scss */
 .sharing-buttons a:nth-child(2) {
   /*Facebook Button*/
   background: #3b5998;
 }
-/* line 43, ../sass/buttons.scss */
+/* line 38, ../sass/buttons.scss */
 .sharing-buttons a:nth-child(2):hover {
   background-color: #3b5998;
 }
@@ -110,12 +100,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 .sharing-buttons a:nth-child(2):hover:hover {
   background-color: #263961;
 }
-/* line 47, ../sass/buttons.scss */
+/* line 42, ../sass/buttons.scss */
 .sharing-buttons a:nth-child(3) {
   /*Google Button*/
   background: #c7392c;
 }
-/* line 49, ../sass/buttons.scss */
+/* line 44, ../sass/buttons.scss */
 .sharing-buttons a:nth-child(3):hover {
   background-color: #c7392c;
 }
@@ -123,13 +113,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 .sharing-buttons a:nth-child(3):hover:hover {
   background-color: #88271e;
 }
-/* line 53, ../sass/buttons.scss */
+/* line 48, ../sass/buttons.scss */
 .sharing-buttons a:nth-child(4) {
   /*Linkdin Button*/
-  border-radius: 0 10px 10px 0;
   background: #007bb6;
 }
-/* line 56, ../sass/buttons.scss */
+/* line 51, ../sass/buttons.scss */
 .sharing-buttons a:nth-child(4):hover {
   background-color: #007bb6;
 }
@@ -137,7 +126,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 .sharing-buttons a:nth-child(4):hover:hover {
   background-color: #00476a;
 }
-/* line 60, ../sass/buttons.scss */
+/* line 55, ../sass/buttons.scss */
 .sharing-buttons a p {
   text-align: center;
   display: table-cell;
@@ -149,4 +138,30 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   font-size: 14px;
   font-weight: 200;
   line-height: 1.5;
+}
+
+/* line 71, ../sass/buttons.scss */
+.sharing-buttons.horiz {
+  width: 400px;
+  height: 40px;
+  margin: 20px auto;
+}
+/* line 75, ../sass/buttons.scss */
+.sharing-buttons.horiz a {
+  height: 100%;
+  width: 24%;
+  margin: 0 0.5px;
+}
+
+/* line 82, ../sass/buttons.scss */
+.sharing-buttons.vert {
+  height: 200px;
+  width: 150px;
+  margin: 20px auto;
+}
+/* line 86, ../sass/buttons.scss */
+.sharing-buttons.vert a {
+  height: 24%;
+  width: 100%;
+  margin: 0.5px 0;
 }

@@ -14,15 +14,10 @@ $linkdIn: #007bb6;
 * {
 
 }
+
 .sharing-buttons {
-	width:400px;
-	height:40px;
-	margin:20px auto;
 	a {
 		display:table;
-		height:100%;
-		width:24%;
-		margin:0 0.5px;
 		float:left;
 		text-decoration: none;
           transition:background 1s;
@@ -32,7 +27,7 @@ $linkdIn: #007bb6;
 
 		}
 		&:nth-child(1) { /*Twitter Button*/
-			border-radius: 10px 0 0 10px;
+			// border-radius: 10px 0 0 10px;
 			background:$twitter;
 			&:hover{
 				@include setBgColorAndHover($twitter);
@@ -51,7 +46,7 @@ $linkdIn: #007bb6;
 			}
 		}
 		&:nth-child(4) { /*Linkdin Button*/
-			border-radius:  0 10px 10px 0;
+			// border-radius:  0 10px 10px 0;
 			background:$linkdIn;
 			&:hover{
 				@include setBgColorAndHover($linkdIn);
@@ -71,3 +66,34 @@ $linkdIn: #007bb6;
 		}
 	}
 }
+
+
+.sharing-buttons.horiz {
+	width:400px;
+	height:40px;
+	margin:20px auto;
+	a {
+		height:100%;
+		width:24%;
+		margin:0 0.5px;
+	}
+}
+
+.sharing-buttons.vert {
+	height:200px;
+	width:150px;
+	margin:20px auto;
+	a {
+		height:24%;
+		width:100%;
+		margin:0.5px 0;
+	}
+}
+
+
+
+
+
+
+
+
