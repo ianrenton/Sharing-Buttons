@@ -11,20 +11,16 @@ $linkdIn: #007bb6;
           background-color: darken($theColor, 15%);
     }
 }
-* {
-
-}
 
 .sharing-buttons {
 	a {
 		display:table;
 		float:left;
 		text-decoration: none;
-          transition:background 1s;
-          // border:1px solid black;
+		transition:background 1s;
+		// border:1px solid black;
 		&:hover {
 			text-decoration: none;
-
 		}
 		&:nth-child(1) { /*Twitter Button*/
 			// border-radius: 10px 0 0 10px;
