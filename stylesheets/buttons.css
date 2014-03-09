@@ -150,7 +150,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 .sharing-buttons.horiz a {
   height: 100%;
   width: 24%;
-  margin: 0 0.5px;
 }
 
 /* line 78, ../sass/buttons.scss */
@@ -163,5 +162,4 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 .sharing-buttons.vert a {
   height: 24%;
   width: 100%;
-  margin: 0.5px 0;
 }
