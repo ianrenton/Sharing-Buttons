@@ -4,31 +4,31 @@
 	</head>
 	<body>
 		<div class="sharing-buttons horiz">
-			<a href="https://twitter.com/intent/tweet?text=<?php the_title( ); ?>&via=jonjoe &url=<?php echo get_permalink(); ?>">
+			<a href="https://twitter.com/intent/tweet?text={{ page.title }}&via=jonjoe&url={{ site.url }}{{ page.url }}">
 				<p>Twitter</p>
 			</a>
-			<a href="https://www.facebook.com/sharer/sharer.php? u=<?php echo get_permalink(); ?>">
+			<a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}">
 				<p>Facebook</p>
 			</a>
-			<a href="https://plus.google.com/share?url=<?php echo get_permalink(); ?>">
+			<a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}">
 				<p>Google Plus</p>
 			</a>
-			<a href="http://www.linkedin.com/shareArticle?url=<?php echo get_permalink(); ?>&title=<?php the_title( ); ?>">
+			<a href="http://www.linkedin.com/shareArticle?url={{ site.url }}{{ page.url }}&title={{ page.title }}">
 				<p>Linked in</p>
 			</a>
 		</div>
 
-		<<div class="sharing-buttons vert">
-			<a href="https://twitter.com/intent/tweet?text=<?php the_title( ); ?>&via=jonjoe &url=<?php echo get_permalink(); ?>">
+		<div class="sharing-buttons vert">
+			<a href="https://twitter.com/intent/tweet?text={{ page.title }}&via=jonjoe&url={{ site.url }}{{ page.url }}">
 				<p>Twitter</p>
 			</a>
-			<a href="https://www.facebook.com/sharer/sharer.php? u=<?php echo get_permalink(); ?>">
+			<a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}">
 				<p>Facebook</p>
 			</a>
-			<a href="https://plus.google.com/share?url=<?php echo get_permalink(); ?>">
+			<a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}">
 				<p>Google Plus</p>
 			</a>
-			<a href="http://www.linkedin.com/shareArticle?url=<?php echo get_permalink(); ?>&title=<?php the_title( ); ?>">
+			<a href="http://www.linkedin.com/shareArticle?url={{ site.url }}{{ page.url }}&title={{ page.title }}">
 				<p>Linked in</p>
 			</a>
 		</div>
